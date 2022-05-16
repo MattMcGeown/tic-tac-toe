@@ -1,0 +1,29 @@
+.grid_wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0.4rem;
+}
+
+.winner {
+	width: 30rem;
+	height: 3rem;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.restart_btn {
+	border: none;
+	background: deepskyblue;
+	color: white;
+	padding: 0.6em 4rem;
+	font-size: 1.2rem;
+	margin-top: 1rem;
+	border-radius: 0.3rem;
+}
